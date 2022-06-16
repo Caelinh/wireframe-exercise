@@ -1,1 +1,42 @@
-
+header {
+    height: 90px;
+    border: thin solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+  }
+  
+a {
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    margin: auto 60px auto 60px;
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+ 
+#hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+  body {
+    font-family: 'Inter', sans-serif;
+    margin:auto 10% ;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    margin: 15px;
+}
+aside{
+    outline: thin solid black; 
+    width: 50%;
+    height: 480px;
+}
